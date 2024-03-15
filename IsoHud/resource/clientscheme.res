@@ -3028,7 +3028,88 @@ Scheme
 				"antialias" "1"
 			}
 		}
+	//
+	//////////////////// CUSTOM ECON FONTS //////////////////////////////
+	//
+
+		"AgencyBold12"
+		{
+			"1"
+			{
+				"name"		"Agency FB Bold"
+				"tall"		"12"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		"AgencyBold16"
+		{
+			"1"
+			{
+				"name"		"Agency FB Bold"
+				"tall"		"16"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		"AgencyBold24"
+		{
+			"1"
+			{
+				"name"		"Agency FB Bold"
+				"tall"		"24"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		"AgencyBold32"
+		{
+			"1"
+			{
+				"name"		"Agency FB Bold"
+				"tall"		"32"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		"AgencyBold36"
+		{
+			"1"
+			{
+				"name"		"Agency FB Bold"
+				"tall"		"36"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		"AgencyBold42"
+		{
+			"1"
+			{
+				"name"		"Agency FB Bold"
+				"tall"		"42"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		"AgencyBold48"
+		{
+			"1"
+			{
+				"name"		"Agency FB Bold"
+				"tall"		"48"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
 	}
+	
 
 	//
 	//////////////////// BORDERS //////////////////////////////
@@ -5839,5 +5920,10 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
+		"8" 
+		{
+			"font" "resource/fonts/AGENCYB.ttf"
+			"name" "Agency FB Bold"
+		}	
 	}
 }
