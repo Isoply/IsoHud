@@ -1,0 +1,108 @@
+#base "HudItemEffectMeter.res"
+"Resource/UI/HudRocketPack.res"
+{
+	HudItemEffectMeter
+	{
+		"fieldName"		"HudItemEffectMeter"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c137"
+		"ypos"			"c127"
+		"wide"			"94"
+		"tall"			"45"
+	}
+
+	"ItemEffectMeterBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectMeterBG"
+		"xpos"			"4"
+		"ypos"			"-20"
+		"zpos"			"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"				"../hud/ammo_blue_bg"
+		"teambg_2"			"../hud/ammo_red_bg"
+		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
+		"teambg_3"			"../hud/ammo_blue_bg"
+		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"					
+	}
+
+	"ItemEffectIcon"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ItemEffectIcon"
+		"xpos"			"55"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+		"visible_minmode""1"
+		"enabled"		"1"
+		"image"			"../hud/pyro_jetpack_off2"
+		"scaleImage"	"1"	
+	}
+
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItemEffectMeterLabel"
+		"xpos"			"0"
+		"ypos"			"50"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_RocketPack_Disabled"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"AgencyRegular8"
+		"fgcolor"		"White"
+	}
+
+	"ItemEffectMeter"
+	{	
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"ItemEffectMeter"
+		"font"			"Default"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"22"
+		"wide_minmode"	"22"
+		"tall"			"8"				
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"fgcolor"		"White"
+	}
+
+	"ItemEffectMeter2"
+	{	
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"ItemEffectMeter2"
+		"font"			"Default"
+		"xpos"			"28"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"22"
+		"tall"			"8"				
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"Left"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"fgcolor"		"White"
+	}
+}

@@ -3031,6 +3031,8 @@ Scheme
 	//
 	//////////////////// CUSTOM ECON FONTS //////////////////////////////
 	//
+	
+		/// Agency Bold here ///
 
 		"AgencyBold12"
 		{
@@ -3103,6 +3105,107 @@ Scheme
 			"1"
 			{
 				"name"		"Agency FB Bold"
+				"tall"		"48"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		/// Agency Regular here ///
+		
+		"AgencyRegular6"
+		{
+			"1"
+			{
+				"name"		"Agency Regular"
+				"tall"		"6"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		"AgencyRegular8"
+		{
+			"1"
+			{
+				"name"		"Agency Regular"
+				"tall"		"8"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		"AgencyRegular12"
+		{
+			"1"
+			{
+				"name"		"Agency Regular"
+				"tall"		"12"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		"AgencyRegular16"
+		{
+			"1"
+			{
+				"name"		"Agency Regular"
+				"tall"		"16"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		"AgencyRegular24"
+		{
+			"1"
+			{
+				"name"		"Agency Regular"
+				"tall"		"24"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		"AgencyRegular32"
+		{
+			"1"
+			{
+				"name"		"Agency Regular"
+				"tall"		"32"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		"AgencyRegular36"
+		{
+			"1"
+			{
+				"name"		"Agency Regular"
+				"tall"		"36"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		"AgencyRegular42"
+		{
+			"1"
+			{
+				"name"		"Agency Regular"
+				"tall"		"42"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		"AgencyRegular48"
+		{
+			"1"
+			{
+				"name"		"Agency Regular"
 				"tall"		"48"
 				//"weight"	"500"
 				"antialias" "1"
@@ -5924,6 +6027,11 @@ Scheme
 		{
 			"font" "resource/fonts/AGENCYB.ttf"
 			"name" "Agency FB Bold"
+		}	
+		"9" 
+		{
+			"font" "resource/fonts/AGENCY.ttf"
+			"name" "Agency Regular"
 		}	
 	}
 }
