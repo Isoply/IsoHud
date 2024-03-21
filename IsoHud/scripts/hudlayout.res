@@ -41,7 +41,7 @@
 		"xpos"	"c-100"
 		"ypos"	"0"
 		"wide"	"200"
-		"tall"	"160"
+		"tall"	"f0"
 		
 		"blue_active_xpos"			"16"
 		"blue_active_xpos_minmode"	"55"

@@ -38,20 +38,29 @@
 		
 		"if_multiple_trains"
 		{
-			"ypos"			"114"
+			"ypos"			"123"
+			"xpos"			"135"
 			"zpos"			"3"
-			"tall"			"12"
+			"tall"			"10"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}
 		
 		"if_single_with_hills"
 		{
 			"ypos"			"116"
-			"ypos_minmode"	"120"
 			"tall"			"18"
-			"tall_minmode"	"10"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}		
+		
+		"if_multiple_trains_top"
+		{
+			"ypos"			"120"
+		}
+		
+		"if_multiple_trains_bottom"
+		{
+			"ypos"			"126"
+		}
 	}	
 	
 	"ProgressBar"
@@ -69,9 +78,9 @@
 		
 		"if_multiple_trains"
 		{
-			"ypos"			"114"
+			"ypos"			"121"
 			"zpos"			"6"
-			"tall"			"12"
+			"tall"			"8"
 			"visible"		"1"
 		}
 	}		
@@ -111,21 +120,21 @@
 		
 		"if_multiple_trains"
 		{
-			"xpos"			"59"
+			"xpos"			"118"
 			"zpos"			"5"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"18"
+			"tall"			"18"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}
 		
 		"if_multiple_trains_top"
 		{
-			"ypos"			"113"
+			"ypos"			"116"
 		}
 		
 		"if_multiple_trains_bottom"
 		{
-			"ypos"			"113"
+			"ypos"			"122"
 		}
 		
 		"if_multiple_trains_red"
@@ -159,11 +168,21 @@
 												
 		"if_multiple_trains"
 		{
-			"xpos"			"61"
-			"ypos"			"114"
+			"xpos"			"65"	
+			"ypos"			"116"	
 			"zpos"			"5"	
-			"wide"			"12"
-			"tall"			"12"
+			"wide"			"18"		
+			"tall"			"18"
+		}
+
+		"if_multiple_trains_top"
+		{
+			"ypos"			"116"
+		}
+		
+		"if_multiple_trains_bottom"
+		{
+			"ypos"			"122"
 		}
 	}
 
@@ -181,11 +200,21 @@
 				
 		"if_multiple_trains"
 		{
-			"ypos"			"48"
+			"ypos"			"55"
 			"zpos"			"8"
 			"wide"			"52"
 			"tall"			"170"
-		}
+		}	
+			
+			"if_multiple_trains_top"
+			{
+				"ypos"			"50"
+			}										
+			
+			"if_multiple_trains_bottom"
+			{
+				"ypos"			"60"
+			}
 		
 		"RecedeTime"
 		{	
@@ -217,7 +246,7 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"			"4"
 			}										
 			
 			"if_multiple_trains_bottom"
@@ -230,15 +259,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImage"	
-			"xpos"			"20"
-			"xpos_minmode"		"13"
-			"ypos"			"77"
-			"ypos_minmode"		"50"
+			"xpos"			"13"
+			"ypos"			"50"
 			"zpos"			"1"
-			"wide"			"40"
-			"wide_minmode"		"26"
-			"tall"			"40"
-			"tall_minmode"		"26"
+			"wide"			"26"
+			"tall"			"26"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -492,15 +517,11 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"EscortTeardrop"
-			"xpos"				"13"
-			"xpos_minmode"			"9"
-			"ypos"				"13"
-			"ypos_minmode"			"8"			
+			"xpos"				"9"
+			"ypos"				"8"		
 			"zpos"				"20"
-			"wide"				"100"
-			"wide_minmode"			"65"			
-			"tall"				"65"
-			"tall_minmode"			"42"			
+			"wide"				"65"			
+			"tall"				"42"			
 			"visible"			"0"
 			"enabled"			"1"
 			
@@ -531,8 +552,8 @@
 				{
 					"xpos"			"0"
 					"ypos"			"0"			
-					"wide"			"35"			
-					"tall"			"42"			
+					"wide"			"0"			
+					"tall"			"0"			
 				}	
 			}
 
