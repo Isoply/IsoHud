@@ -17,7 +17,6 @@
 		"if_multiple_trains"
 		{
 			"ypos"				"r200"
-			"tall"				"200"
 		}
 	}
 	
@@ -41,25 +40,22 @@
 			"ypos"			"123"
 			"xpos"			"135"
 			"zpos"			"3"
-			"tall"			"10"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}
 		
 		"if_single_with_hills"
 		{
-			"ypos"			"116"
-			"tall"			"18"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}		
 		
 		"if_multiple_trains_top"
 		{
-			"ypos"			"120"
+			"ypos"			"123"
 		}
 		
 		"if_multiple_trains_bottom"
 		{
-			"ypos"			"126"
+			"ypos"			"129"
 		}
 	}	
 	
@@ -67,7 +63,7 @@
 	{
 		"ControlName"	"CTFHudEscortProgressBar"
 		"fieldName"		"ProgressBar"	
-		"xpos"			"73"
+		"xpos"			"135"
 		"ypos"			"121"
 		"zpos"			"0"
 		"wide"			"155"
@@ -78,10 +74,18 @@
 		
 		"if_multiple_trains"
 		{
-			"ypos"			"121"
 			"zpos"			"6"
-			"tall"			"8"
 			"visible"		"1"
+		}
+		
+		"if_multiple_trains_red"
+		{
+			"ypos"			"120"
+		}
+		
+		"if_multiple_trains_blue"
+		{
+			"ypos"			"126"
 		}
 	}		
 	
@@ -120,16 +124,16 @@
 		
 		"if_multiple_trains"
 		{
-			"xpos"			"118"
+			"xpos"			"123"
 			"zpos"			"5"
-			"wide"			"18"
-			"tall"			"18"
+			"wide"			"12"
+			"tall"			"12"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}
 		
 		"if_multiple_trains_top"
 		{
-			"ypos"			"116"
+			"ypos"			"122"
 		}
 		
 		"if_multiple_trains_bottom"
@@ -208,12 +212,12 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"50"
+				"ypos"			"55"
 			}										
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"60"
+				"ypos"			"57"
 			}
 		
 		"RecedeTime"

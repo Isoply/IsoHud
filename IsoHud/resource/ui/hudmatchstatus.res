@@ -523,8 +523,6 @@
 				"zpos"			"5"
 				"wide"			"f0"
 				"tall"			"19"
-				"autoResize"	"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"

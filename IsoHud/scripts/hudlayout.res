@@ -753,8 +753,8 @@
 		"enabled"				"1"
 		"xpos"					"c-240"
 		"ypos"					"c60"
-		"wide"					"480"
-		"tall"					"100"
+		"wide"					"0"
+		"tall"					"0"
 		"HintSize"				"1"
 		"text_xpos"				"8"
 		"text_ypos"				"8"
@@ -1044,8 +1044,8 @@
 		"xpos"					"c-160"
 		"ypos"					"15"
 		"ypos_lodef"			"75"
-		"wide"					"320"
-		"tall"					"300"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 	HudTeamSwitch
@@ -1127,10 +1127,8 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"5"
-		"ypos_minmode"				"15"
-		"ypos_lodef"				"75"
+		"xpos"					"c-63"
+		"ypos"					"12"
 		"wide"					"125"
 		"tall"					"70"
 	}

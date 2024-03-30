@@ -1256,7 +1256,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"8"
-				"tall_hidef"	"7"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -3031,7 +3030,7 @@ Scheme
 	//
 	//////////////////// CUSTOM ECON FONTS //////////////////////////////
 	//
-	
+
 		/// Agency Bold here ///
 
 		"AgencyBold12"
@@ -3113,6 +3112,39 @@ Scheme
 
 		/// Agency Regular here ///
 		
+		"AgencyRegular2"
+		{
+			"1"
+			{
+				"name"		"Agency Regular"
+				"tall"		"2"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		"AgencyRegular3"
+		{
+			"1"
+			{
+				"name"		"Agency Regular"
+				"tall"		"3"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		"AgencyRegular4"
+		{
+			"1"
+			{
+				"name"		"Agency Regular"
+				"tall"		"4"
+				//"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
 		"AgencyRegular6"
 		{
 			"1"
